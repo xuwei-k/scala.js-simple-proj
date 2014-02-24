@@ -1,1 +1,0 @@
-ScalaJS.modules.Main().main();
