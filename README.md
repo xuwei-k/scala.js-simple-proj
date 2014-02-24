@@ -4,8 +4,16 @@ Cross compile trial
 
 ## Run as scala
 
+Run
+
 ```
 sbt run
+```
+
+Test with specs2
+
+```
+sbt test
 ```
 
 ## Run as javascript
@@ -17,7 +25,9 @@ sbt packageJS
 open assets/index-dev.html
 ```
 
-Production(2min~)
+Production(compile time 2min~)
+
+When you compile as optimizeJS, comment out `specs2` dependencies from `build.sbt`
 
 ```
 sbt optimizeJS
