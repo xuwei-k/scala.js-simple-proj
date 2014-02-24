@@ -1,1 +1,1 @@
-ScalaJS.modules.example_Main().main();
+ScalaJS.modules.Main().main();
